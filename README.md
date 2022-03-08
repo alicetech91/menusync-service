@@ -3,15 +3,15 @@ Develop a Food MenuSync System using Microservices architecture and Spring Cloud
 This is a system designed in Spring Boot/Data/Cloud to provide Microservice for food menu system.
 
 ## Development environment
-**Postgres DB** is running on docker, image specified in docker-compose.yml file, and started by docker-compose.
-**Spring Data Jpa** is used for quick DB access and verification.
-**Spring Boot** is used for fast Microservice development and independant deployment.
-**Spring Boot Actuator** is used to provide monitoring information. (/health, /metrics... etc.)
-**Lombok** is used to eliminate constructors and getter/setter implementation for cleaner coding style.
-**Spring Cloud Gateway** is used to provide API Gateway.
-**Eureka Client** is used for microservices registration and discovery.
-**Junit** is used to integrate with Mockito for unit testing
-**Docker Plugin** to build the docker image of the Microservice
+**Postgres DB** is running on docker, image specified in docker-compose.yml file, and started by docker-compose.  
+**Spring Data Jpa** is used for quick DB access and verification.  
+**Spring Boot** is used for fast Microservice development and independant deployment.  
+**Spring Boot Actuator** is used to provide monitoring information. (/health, /metrics... etc.)  
+**Lombok** is used to eliminate constructors and getter/setter implementation for cleaner coding style.  
+**Spring Cloud Gateway** is used to provide API Gateway.  
+**Eureka Client** is used for microservices registration and discovery.  
+**Junit** is used to integrate with Mockito for unit testing.  
+**Docker Plugin** to build the docker image of the Microservice.  
 
 ## Features
 - Microservice should be able to handle product stock updates
@@ -22,6 +22,6 @@ This is a system designed in Spring Boot/Data/Cloud to provide Microservice for 
 - The code has tests
 - The code has logging using Slf4j and custom config in app.prop
 
-## REST APIs
-**Food Menu Sync service**
+## Reason to choose EUREKA
+Typically, when we begin a project, we have all of the configurations in the properties file. Adding and modifying these properties becomes more difficult as the number of services developed and deployed grows. Some services may cease to exist, while others may relocate. This manual property change may cause problems. In such scenarios, Eureka Service Registration and Discovery makes life easier. As all services are registered to the Eureka server and lookup done by calling the Eureka Server, any change in service locations need not be handled and is taken care of
 
