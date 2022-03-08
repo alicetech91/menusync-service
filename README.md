@@ -21,3 +21,7 @@ This is a system designed in Spring Boot/Data/Cloud to provide Microservice for 
 - Microservice is horizontally scalable with the use of Netflix Eureka, Spring Cloud Gateway and Docker(Auto Scale up and down)
 - The code has tests
 - The code has logging using Slf4j and custom config in app.prop
+
+## REST APIs
+**Food Menu Sync service**
+Search restaurant by name
