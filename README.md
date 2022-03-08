@@ -24,4 +24,4 @@ This is a system designed in Spring Boot/Data/Cloud to provide Microservice for 
 
 ## REST APIs
 **Food Menu Sync service**
-Search restaurant by name
+
