@@ -22,6 +22,5 @@ This is a system designed in Spring Boot/Data/Cloud to provide Microservice for 
 - The code has tests
 - The code has logging using Slf4j and custom config in app.prop
 
-## Reason to choose EUREKA
-Typically, when we begin a project, we have all of the configurations in the properties file. Adding and modifying these properties becomes more difficult as the number of services developed and deployed grows. Some services may cease to exist, while others may relocate. This manual property change may cause problems. In such scenarios, Eureka Service Registration and Discovery makes life easier. As all services are registered to the Eureka server and lookup done by calling the Eureka Server, any change in service locations need not be handled and is taken care of
+
 
